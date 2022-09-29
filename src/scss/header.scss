@@ -14,13 +14,17 @@
 .menu{
   position: relative;
   display: flex;
-  left: 52%;
+  padding-left: 1000px;
   bottom: 30px;
-  a{
+  & a{
     padding-right: 30px;
     color: white;
     text-decoration: none;
     font-size: 15px;
     font-weight: 400;
+    transition: 0.3s;
+    &:hover{
+      color:#CF0063;
+    }
   }
 }

@@ -1,12 +1,48 @@
 .section-two{
   height: 680px;
   width: 100%;
-  background: linear-gradient(to left,#450E4B,#CF0063); 
+  background: linear-gradient(to left,#450E4B,#CF0063);
+  &-container{
+    padding-left: 144px;
+    padding-top: 226px;
+  } 
 }
 
 .rightmain{
-  position: relative;
+  position: absolute;
   width: 652px;
   height: 680px;
-  left: 52%;
+  margin-left: 42%;
+  top: 120px;
+}
+
+.sect2{
+  &-h1{
+    font-size: 80px;
+    font-weight: 400;
+    color: #fff;
+  }
+
+  &-h2{
+    font-weight: 400;
+    font-size: 30px;
+    color: #fff;
+ }
+
+ &-btn{
+  width: 170px;
+  height: 66px;
+  color: #fff;
+  background-color: #FC0A7E;
+  border: none;
+  border-radius: 3%;
+  font-size: 16px;
+  margin-top: 25px;
+  transition: 0.5s all;
+  &:hover{
+    color:#FC0A7E;
+    background: linear-gradient(to left,#450E4B,#CF0063);
+    border: 1px solid #8A2BE2;
+  }
+ }
 }
